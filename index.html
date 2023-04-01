@@ -1,1 +1,64 @@
-I have created a website mwahahahahahah
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cute Bouncing Things</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #F9B9F2;
+			overflow: hidden;
+			background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/pixel-heart.png');
+		}
+
+		#cat {
+			position: absolute;
+			top: 0;
+			left: 0;
+			animation: bounce 2s ease-in-out infinite;
+		}
+
+		#atom {
+			position: absolute;
+			top: 0;
+			right: 0;
+			animation: bounce 1s ease-in-out infinite;
+		}
+
+		#laptop {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			animation: bounce 3s ease-in-out infinite;
+		}
+
+		@keyframes bounce {
+			0% {
+				transform: translate(0, 0);
+			}
+			50% {
+				transform: translate(150px, 150px);
+			}
+			100% {
+				transform: translate(0, 0);
+			}
+		}
+		
+		h1 {
+  font-size: 4em;
+  font-family: 'Times New Roman', cursive;
+  background-image: linear-gradient(to right, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8F00FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+	</style>
+</head>
+<body>
+	<img id="cat" src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=1200&quality=85&auto=format&fit=max&s=a52bbe202f57ac0f5ff7f47166906403" alt="Bouncing cat" width=150px>
+	<img id="atom" src="https://epi-rsc.rsc-cdn.org/globalassets/05-journals-books-databases/our-journals/00-journal-pages-heros/Chemical-Science-HERO.jpg?version=9e72b3c3" alt="Bouncing atom" width=200px>
+	<img id="laptop" src="https://i.gifer.com/origin/2d/2d4adaf81d4a24d3da1a5c93834e56b9.gif" alt="Bouncing laptop">
+	
+	<h1>About Alyssa</h1>
+	Ahoy there. ChatGPT helped me design this website. 
+</body>
+</html>
